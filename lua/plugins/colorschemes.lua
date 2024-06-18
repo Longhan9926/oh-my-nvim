@@ -5,6 +5,7 @@ return {
 		lazy = false,
 		config = function()
 			vim.cmd('colorscheme darcula-solid')
+			vim.cmd('set termguicolors')
 		end,
 	},
 	{
